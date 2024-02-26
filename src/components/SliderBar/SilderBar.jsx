@@ -1,5 +1,5 @@
 import React from 'react'
-import "./SilderBar"
+import "./SliderBar.css"
 export const SilderBar = ({children}) => {
   return (
     <nav>
