@@ -1,14 +1,17 @@
 import React from 'react'
-
-export const Card = ({img,title,description,enlace}) => {
+import "./Card.css"
+export const Card = ({photo,title,description,enlace}) => {
   return (
-      <>
-        <img src={img} alt="" />
-        <div className="contentCa">
-            <p className="title">{title}</p>
-            <p className="Descrip">{description}</p>
-            <a href="#" className="enla">{enlace}</a>
+      <section className="CardGeneral">
+        <div className="contentImgCard">
+        <img src={photo} alt={title} className='imgCard' />
         </div>
-        </>
+        <div className="ContentofCard">
+           <p className="titleCard">{title}</p>
+            <p className="DescripCard">{description}</p>
+             <a href="#" className="enlaCard">{enlace}</a>
+        </div>
+      </section>
   )
 }
+

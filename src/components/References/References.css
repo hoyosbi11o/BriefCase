@@ -1,0 +1,17 @@
+/* Card.css */
+
+.ReferenceGeneral {
+    display: flex;
+    flex-direction: column;
+    width: 300;
+    height: 150px;
+    background-color: transparent;
+    border:1px solid gray ;
+    color: #000000;
+    font-size: 1rem;
+}
+.contentRef{
+    width: 100%;
+    height: auto;
+}
+

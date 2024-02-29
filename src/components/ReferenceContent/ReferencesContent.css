@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-.ProjectContent {
+.ReferencesContent {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-top: 15px;
 }
 
-.Contentproj {
+.Contentrefe {
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 24%;
 }
 
-.Contentproj>div {
+.Contentrefe>div {
     display: flex;
     align-items: center;
     width: 7%;
@@ -30,7 +30,7 @@
     overflow: hidden;
 }
 
-.titleProject {
+.titleRefere {
     font-size: 35px;
     margin: 18px 0px 30px 10px;
     font-weight: 700;
@@ -38,12 +38,13 @@
     color: #4d4d4d;
 }
 
-.lineSenapj {
+.lineSenaref {
     width: 100%;
     height: 4%;
     background-color: #c1ff95;
 }
-.cardPro{
+
+.refer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

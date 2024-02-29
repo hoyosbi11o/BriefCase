@@ -3,7 +3,8 @@ import { Img } from '../Img/Img'
 import LogoSinFondo from "../../assets/LogoSenaSInFondo.png"
 import "./ProjectsContent.css"
 import { Card } from '../Card/Card'
-import { contentCard } from '../ContentCard/ContentCard'
+import { ContentCard } from '../ContentJson/ContentCard'
+
 
 export const ProjectsContent = () => {
   return (
@@ -17,10 +18,10 @@ export const ProjectsContent = () => {
         <div className="lineSenapj" />
         <div className="cardPro">
             {
-              contentCard.map(card=>(
+              ContentCard.map(card=>(                
                 <Card
                   key={card._id}
-                  img={card.img}
+                  photo={card.image}
                   title={card.title}
                   description={card.description}
                 enlace={card.enlace}

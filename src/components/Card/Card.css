@@ -1,0 +1,53 @@
+/* Card.css */
+
+.CardGeneral {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: #39a900;
+    height: 100px;
+}
+.contentImgCard{
+    width: 40%;
+    height: auto;
+}
+.imgCard {
+    width: 6rem;
+    height: 6rem;    
+}
+
+.ContentofCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    padding: 0px;
+}
+
+.titleCard {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0px 0px 5px 0px;
+}
+
+.DescripCard {
+    font-size: 1rem;
+    margin: 0px 0px 5px 0px;
+}
+
+.enlaCard {
+    font-size: 1rem;
+    color: #000000;
+    /* Cambia el color según tus preferencias */
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.enlaCard:hover {
+    text-decoration: underline;
+}
