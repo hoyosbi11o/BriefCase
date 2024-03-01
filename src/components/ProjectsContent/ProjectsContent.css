@@ -4,24 +4,24 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 15px;
+    height: 41.5vh;
 }
 
 .Contentproj {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 24%;
+    width: 100%;
+    height: 29%;
 }
 
 .Contentproj>div {
     display: flex;
     align-items: center;
-    width: 7%;
-    height: 95%;
+    width: 8%;
+    height: 84%;
     background-color: #c1ff95;
     border-radius: 50%;
-    margin-bottom: 14px;
 }
 
 .LogoSinFondo {
@@ -46,6 +46,7 @@
 .cardPro{
     display: flex;
     flex-direction: row;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
 }

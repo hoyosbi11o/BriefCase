@@ -4,21 +4,22 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 15px;
+    height: 40vh;
+    padding-top: 30px;
 }
 
 .Contentrefe {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 24%;
+    height: 29%;
 }
 
 .Contentrefe>div {
     display: flex;
     align-items: center;
-    width: 7%;
-    height: 95%;
+    width: 8%;
+    height: 87%;
     background-color: #c1ff95;
     border-radius: 50%;
     margin-bottom: 14px;
@@ -40,13 +41,12 @@
 
 .lineSenaref {
     width: 100%;
-    height: 4%;
+    height: 3%;
     background-color: #c1ff95;
 }
 
 .refer {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
+    margin-top: 10px;
 }

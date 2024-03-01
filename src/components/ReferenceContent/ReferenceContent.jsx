@@ -11,7 +11,7 @@ export const ReferenceContent = () => {
         <div>
           <Img className="LogoSinFondo" component={LogoSinFondo} />
         </div>
-        <p className="titleRefere">Referencias</p>
+        <p className="titleRefere">REFERENCIAS</p>
       </div>
       <div className="lineSenaref" />
       <div className="refer">
