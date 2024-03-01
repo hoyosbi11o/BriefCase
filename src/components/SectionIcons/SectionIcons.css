@@ -1,0 +1,17 @@
+.SectionIco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 46px 0 0 0;
+    background-color: #29690b;
+    width: 86%;
+    height: 6%;
+    padding-top: 10px;
+}
+
+.Icon{
+    font-size: 25px;
+    margin: 0 9px;
+}

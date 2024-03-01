@@ -1,0 +1,29 @@
+/* Estilos base */
+.ContentT {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top:25px ;
+}
+
+.ContentX {
+    width: 8%;
+    height: 8%;
+    text-align: center;
+}
+
+.con {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.CardX {
+    width: 100%;
+    height: auto;
+}
+
