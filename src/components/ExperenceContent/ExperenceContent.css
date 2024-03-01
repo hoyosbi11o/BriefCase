@@ -1,44 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-.profileContent{
+.ExpereContent {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 30vh;
+    height: 40vh;
+    margin-top: 20px;
 }
 
-.Contentpro{
+.ContentExpe {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 41%;
+    height: 29%;
 }
-.Contentpro > div {
+
+.ContentExpe>div {
     display: flex;
     align-items: center;
     width: 8%;
-    height: 82%;
+    height: 87%;
     background-color: #c1ff95;
     border-radius: 50%;
+    margin-bottom: 14px;
 }
-.LogoSinFondo{
+
+.LogoSinFondo {
     width: 100%;
     height: auto;
     overflow: hidden;
 }
-.titleProfile{
+
+.titleExpere {
     font-size: 35px;
-    margin: 30px 0px 30px 10px;
+    margin: 18px 0px 30px 10px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
     color: #4d4d4d;
 }
-.lineSena{
-    width: 100%;
-    height:4%;
-    background-color: #c1ff95;
-}
-.textProfile{
-    color: #4d4d4d;
-    margin: 15px 0 0 0;
+
+.P{
+    color: black;
 }

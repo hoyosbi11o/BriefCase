@@ -3,21 +3,25 @@
 .CardGeneral {
     display: flex;
     flex-direction: row;
-    width: 300px;
-    border: 1px solid #ccc;
+    width: 34%;
     border-radius: 8px;
     overflow: hidden;
     margin: 10px;
     background-color: #39a900;
-    height: 100px;
+    height: 47%;
 }
 .contentImgCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 40%;
-    height: auto;
+    height: 100%;
+    margin-left: 10px;
 }
 .imgCard {
-    width: 6rem;
-    height: 6rem;    
+    width: 100%;
+    height: auto;  
+    overflow: hidden;  
 }
 
 .ContentofCard {
@@ -30,6 +34,8 @@
 }
 
 .titleCard {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 1.2rem;
     font-weight: bold;
     margin: 0px 0px 5px 0px;
