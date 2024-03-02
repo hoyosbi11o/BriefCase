@@ -2,7 +2,7 @@ export const ContentCard =[
     {
         _id: 1,
         title: "Mongo Work",
-        image: "../../assets/MongoDB.jpg",
+        image: "https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407940/MongoDB_hk6hrn.jpg",
         description: "Description",
         enlace:"Ir a proyecto"
     
@@ -10,7 +10,7 @@ export const ContentCard =[
     {
         _id: 2,
         title: "Api Rest",
-        image: "../../assets/apiRest.png",
+        image: "https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407853/apiRest_cdhaue.png",
         description: "Description",
         enlace:"Ir a proyecto"
     
@@ -18,7 +18,7 @@ export const ContentCard =[
     {
         _id: 3,
         title: "Bleux",
-        image: "../../assets/bleux.jpg",
+        image: "https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407854/bleux_wemfgl.jpg",
         description: "Description",
         enlace:"Ir a proyecto"
     
@@ -26,7 +26,7 @@ export const ContentCard =[
     {
         _id: 4,
         title: "Proyecto react",
-        image: "../../assets/bleux.jpg",
+        image: "https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407854/bleux_wemfgl.jpg",
         description: "Description",
         enlace:"Ir a proyecto"
     },
