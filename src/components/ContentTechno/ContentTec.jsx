@@ -1,38 +1,34 @@
 import React from 'react'
 import ProgressBar from "@ramonak/react-progress-bar"
 import { Img } from "../Img/Img"
-import REACT from "../../assets/REACT.jpg"
-import MongoDb from "../../assets/MongoDB.png"
-import Js from "../../assets/js.png"
-import Java from "../../assets/java.png"
 import "./ContentTechno.css"
 export const ContentTec = () => {
   return (
     <div className='ContentT'>
           <div className="ContentX">
             <div className='con'>
-          <Img className="CardX" component={REACT} />
+          <Img className="CardX" component={"https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407602/REACT_lurwny.jpg"} />
             </div>
         <ProgressBar baseBgColor='#c1ff95' bgColor='#39a900' labelColor='#39a900'  completed={40} />
         <p className='P'>Basico</p>
           </div>
       <div className="ContentX">
         <div className='con'>
-          <Img className="CardX" component={MongoDb} />
+          <Img className="CardX" component={"https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407454/MongoDB_fkubyu.png"} />
             </div>
         <ProgressBar baseBgColor='#c1ff95' bgColor='#39a900' labelColor='#39a900'  completed={40} />
         <p className='P'>Basico</p>
           </div>
       <div className="ContentX">
         <div className='con'>
-        <Img className="CardX" component={Js} />
+          <Img className="CardX" component={"https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407376/js_p8kzxj.png"} />
         </div>
         <ProgressBar baseBgColor='#c1ff95' bgColor='#39a900' labelColor='#39a900'  completed={50} />
         <p className='P'>Intermedio</p>
           </div>
       <div className="ContentX">
         <div className='con'>
-          <Img className="CardX" component={Java} />
+          <Img className="CardX" component={"https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407376/java_xtzhmw.png"} />
               </div>
         <ProgressBar baseBgColor='#c1ff95' bgColor='#39a900' labelColor='#39a900'  completed={50} />
         <p className='P'>Intermedio</p>

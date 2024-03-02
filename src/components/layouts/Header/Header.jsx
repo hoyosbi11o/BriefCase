@@ -1,6 +1,5 @@
 import React from 'react'
 import {Img} from "../../Img/Img"
-import  LogoSena  from "../../../assets/LogoSena.jpeg"
 import { SilderBar } from '../../SliderBar/SilderBar'
 import { ItemSliderBar } from '../../ItemSliderBar/ItemSlderBar'
 import { SectionIcons } from '../../SectionIcons/SectionIcons'
@@ -17,7 +16,7 @@ export const Header = () => {
             <ItemSliderBar component="Referencias" />
             <ItemSliderBar component="Experiencia" />
         </SilderBar>          
-        <Img className="LogoSena" component={LogoSena} />
+          <Img className="LogoSena" component={"https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407377/LogoSena_apvl4u.jpg"} />
         <SectionIcons/>
 
     </div>

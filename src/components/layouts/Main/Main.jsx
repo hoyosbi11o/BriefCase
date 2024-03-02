@@ -3,7 +3,6 @@ import { ProfileContent } from '../../ProfileContent/ProfileContent'
 import { ProjectsContent } from '../../ProjectsContent/ProjectsContent'
 import { ReferenceContent } from '../../ReferenceContent/ReferenceContent'
 import { ExperenceContent } from '../../ExperenceContent/ExperenceContent'
-import Whatsapp from "../../../assets/whatsapp.png"
 import "./Main.css"
 import { Img } from '../../Img/Img'
 export const Main = () => {
@@ -15,7 +14,7 @@ export const Main = () => {
       <ReferenceContent/>
       <ExperenceContent/>
     </div>
-      <a href="#"><Img component={Whatsapp} className="BotonWhats" /></a>
+      <a href="#"><Img component={"https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407608/whatsapp_cdkskr.png"} className="BotonWhats" /></a>
     </>
   )
 }
