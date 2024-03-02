@@ -1,6 +1,5 @@
 import React from 'react'
 import { Img } from '../Img/Img'
-import LogoSinFondo from "../../assets/LogoSenaSInFondo.png"
 import "./ProjectsContent.css"
 import { Card } from '../Card/Card'
 import { ContentCard } from '../ContentJson/ContentCard'
@@ -11,7 +10,7 @@ export const ProjectsContent = () => {
     <div className='ProjectContent'>
         <div className="Contentproj">
           <div>
-            <Img className="LogoSinFondo" component={LogoSinFondo} />
+          <Img className="LogoSinFondo" component={"https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407378/LogoSenaSInFondo_ogkwig.png"} />
           </div>
           <p className="titleProject">PROYECTOS</p>
         </div>
