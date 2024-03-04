@@ -27,3 +27,9 @@
         width: 11vw;
     }
 }
+@media only screen and (min-width: 768px) {
+    .LogoSena {
+            width: 11vw;
+            margin-top: 0;
+        }
+}

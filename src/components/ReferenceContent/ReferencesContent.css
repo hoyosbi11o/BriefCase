@@ -80,3 +80,27 @@
     }
 
 }
+@media only screen and (min-width: 768px) {
+    .ReferencesContent {
+        height: 45vh;
+        padding-top: 20px;
+    }
+
+    .Contentrefe>div {
+        width: 9%;
+        height: 76%;
+    }
+
+    .Contentrefe {
+        height: 24%;
+    }
+
+    .lineSenaref {
+        height: 3%;
+    }
+
+    .titleRefere {
+        font-size: 24px;
+    }
+
+}

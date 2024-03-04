@@ -80,3 +80,26 @@
            }
 
 }
+@media only screen and (min-width: 728px) {
+    .ProjectContent {
+        height: 44vh;
+    }
+
+    .Contentproj>div {
+        width: 9%;
+        height: 77%;
+    }
+
+    .Contentproj {
+        height: 24%;
+    }
+
+    .lineSenapj {
+        height: 3%;
+    }
+
+    .titleProject {
+        font-size: 24px;
+    }
+
+}

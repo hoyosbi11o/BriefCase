@@ -73,3 +73,18 @@
 }
 
 }
+@media only screen and (min-width: 728px) {
+    .CardGeneral {
+        width: 45%;
+    }
+
+    .titleCard {
+        font-size: .8rem;
+    }
+
+    .enlaCard,
+    .DescripCard {
+        font-size: .65rem;
+    }
+
+}

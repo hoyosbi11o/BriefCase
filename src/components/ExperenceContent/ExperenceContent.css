@@ -58,3 +58,16 @@
         font-size: 25px;
     }
 }
+@media only screen and (min-width: 728px) {
+    .ExpereContent{
+        margin-top: 0%;
+    }
+    .ContentExpe>div {
+        width: 9%;
+        height: 71%;
+    }
+
+    .titleExpere {
+        font-size: 24px;
+    }
+}

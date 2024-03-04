@@ -25,6 +25,14 @@
 @media only screen and (min-width: 921px) {
     .Icon{
             font-size: 22px;
-             margin: 0 4px;
+             margin: 0 2px;
     }
+}
+@media only screen and (min-width: 768px) {
+
+.SectionIco{
+        margin: 0;
+            height: 10%;
+}
+
 }

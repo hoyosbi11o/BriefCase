@@ -34,3 +34,15 @@
     font-size: 13px;
    }
 }
+@media only screen and (min-width: 728px) {
+
+    .ContentX {
+        width: 8%;
+    }
+    .ContentT{
+        padding-top: 0;
+    }
+    .P {
+        font-size: 11px;
+    }
+}
