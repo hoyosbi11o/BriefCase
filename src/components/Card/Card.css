@@ -17,11 +17,13 @@
     width: 40%;
     height: 100%;
     margin-left: 10px;
+ 
 }
 .imgCard {
     width: 100%;
     height: auto;  
-    overflow: hidden;  
+    overflow: hidden; 
+    border-radius: 10px;
 }
 
 .ContentofCard {
@@ -49,11 +51,25 @@
 .enlaCard {
     font-size: 1rem;
     color: #000000;
-    /* Cambia el color según tus preferencias */
     text-decoration: none;
     text-shadow: none;
 }
 
 .enlaCard:hover {
     text-decoration: underline;
+}
+
+
+@media only screen and (min-width: 921px) {
+.CardGeneral{
+    width: 39%;
+}
+.titleCard{
+        font-size: 1rem;
+}
+.enlaCard,
+.DescripCard{
+    font-size: .8rem;
+}
+
 }

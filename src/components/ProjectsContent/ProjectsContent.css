@@ -31,7 +31,7 @@
 }
 
 .titleProject {
-    font-size: 35px;
+    font-size: 30px;
     margin: 18px 0px 30px 10px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
@@ -49,4 +49,34 @@
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 10px;
+}
+
+@media only screen and (min-width: 1280px) {
+
+    .Contentproj>div {
+        width: 9%;
+        height: 86%;
+    }
+}
+@media only screen and (min-width: 921px) {
+    .ProjectContent {
+        height: 51.7vh;
+    }
+
+    .Contentproj>div {
+        width: 9%;
+        height: 77%;
+    }
+
+    .Contentproj {
+        height: 24%;
+    }
+    .lineSenapj{
+        height: 3%;
+    }
+           .titleProject {
+               font-size: 25px;
+           }
+
 }

@@ -14,3 +14,15 @@
     right: 20px;
     border: 1px solid wheat;
 }
+@media only screen and (min-width: 1280px) {
+    .Main{
+        width: 80vw;
+        padding-left: 20%;
+    }
+}
+@media only screen and (min-width: 921px) {
+    .Main{
+        width: 75vw;
+        padding-left: 19%;
+    }
+}

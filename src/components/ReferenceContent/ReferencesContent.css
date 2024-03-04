@@ -32,7 +32,7 @@
 }
 
 .titleRefere {
-    font-size: 35px;
+    font-size: 30px;
     margin: 18px 0px 30px 10px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
@@ -48,5 +48,35 @@
 .refer {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 1280px) {
+
+    .Contentrefe>div {
+        width: 9%;
+        height: 88%;
+    }
+}
+@media only screen and (min-width: 921px) {
+    .ReferencesContent {
+        height: 45vh;
+    }
+
+    .Contentrefe>div {
+        width: 9%;
+        height: 89%;
+    }
+
+    .Contentrefe {
+        height: 24%;
+    }
+
+    .lineSenaref {
+        height: 3%;
+    }
+    .titleRefere{
+        font-size: 25px;
+    }
+
 }

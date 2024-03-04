@@ -6,7 +6,7 @@ export const ProfileContent = () => {
    <div className="profileContent">
     <div className="Contentpro">
       <div>
-          <Img className="LogoSinFondo" component={"https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407378/LogoSenaSInFondo_ogkwig.png"} />
+          <Img className="LogoSinFondoPro" component={"https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407378/LogoSenaSInFondo_ogkwig.png"} />
       </div>
     <p className="titleProfile">PERFIL</p>
     </div>

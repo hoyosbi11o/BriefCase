@@ -16,4 +16,12 @@
     height: auto;
     text-align: center;
 }
+@media only screen and (min-width: 921px) {
+    .ReferenceGeneral {
+        width: 170px;
+        height: 140px;
+        font-size: .8rem;
+    }
 
+
+}
