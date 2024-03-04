@@ -21,13 +21,13 @@
     background-color: #c1ff95;
     border-radius: 50%;
 }
-.LogoSinFondo{
+.LogoSinFondoPro{
     width: 100%;
     height: auto;
     overflow: hidden;
 }
 .titleProfile{
-    font-size: 35px;
+    font-size: 30px;
     margin: 30px 0px 30px 10px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
@@ -41,4 +41,59 @@
 .textProfile{
     color: #4d4d4d;
     margin: 15px 0 0 0;
+}
+@media only screen and (min-width: 1280px) {
+
+    .Contentpro>div {
+        width: 9%;
+        height: 83%;
+    }
+}
+@media only screen and (min-width: 921px) {
+   .profileContent{
+        height: 38vh;
+   }
+   .Contentpro>div {
+       width: 9%;
+       height: 79%;
+   }
+   .Contentpro{
+    height: 32%;
+   }
+   .lineSena{
+    height: 3%;
+   }
+   .titleProfile{
+    font-size: 25px;
+   }
+.textProfile{
+    font-size: 15px;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.profileContent {
+        height: 31vh;
+    }
+
+    .Contentpro>div {
+        width: 9%;
+        height: 95%;
+    }
+
+    .Contentpro {
+        height: 28%;
+    }
+
+    .lineSena {
+        height: 3%;
+    }
+
+    .titleProfile {
+        font-size: 24px;
+    }
+
+    .textProfile {
+        font-size: 13px;
+    }
 }

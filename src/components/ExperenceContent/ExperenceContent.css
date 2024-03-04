@@ -32,7 +32,7 @@
 }
 
 .titleExpere {
-    font-size: 35px;
+    font-size: 30px;
     margin: 18px 0px 30px 10px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
@@ -41,4 +41,33 @@
 
 .P{
     color: black;
+}
+@media only screen and (min-width: 1280px) {
+
+    .ContentExpe>div {
+        width: 9%;
+        height: 88%;
+    }
+}
+@media only screen and (min-width: 921px) {
+    .ContentExpe>div{
+        width: 9%;
+        height: 82%;
+    }
+    .titleExpere{
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width: 728px) {
+    .ExpereContent{
+        margin-top: 0%;
+    }
+    .ContentExpe>div {
+        width: 9%;
+        height: 71%;
+    }
+
+    .titleExpere {
+        font-size: 24px;
+    }
 }

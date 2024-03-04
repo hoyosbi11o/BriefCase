@@ -12,3 +12,20 @@ a{
     font-weight:900;
     font-size: 1.1rem;
 }
+@media only screen and (min-width: 1280px) {
+
+    a{
+        font-size: 1.44rem;
+    }
+}
+@media only screen and (min-width: 921px) {
+   a{
+    font-size: 1.2rem;
+   }
+}
+@media only screen and (min-width: 768px) {
+
+a{
+    font-size: 1.08rem;
+}
+}

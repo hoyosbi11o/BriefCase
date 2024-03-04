@@ -7,12 +7,29 @@
     height: 100vh;
     background-color: #39a900;
     position: fixed;
+    justify-content: space-evenly;
 }
 
 .LogoSena {
     border-radius: 50%;
-    width: 60%;
+    width: 10vw;
     margin-top: 10px;
-    border: 3px solid #236a00;
+    border: 3px solid #2c8500;
 }
+@media only screen and (min-width: 1280px) {
 
+  .LogoSena{
+        width: 11vw;
+  }
+}
+@media only screen and (min-width: 921px) {
+    .LogoSena{
+        width: 11vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .LogoSena {
+            width: 11vw;
+            margin-top: 0;
+        }
+}
