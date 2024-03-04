@@ -24,7 +24,7 @@
     border-radius: 50%;
 }
 
-.LogoSinFondo {
+.LogoNoBack {
     width: 100%;
     height: auto;
     overflow: hidden;
@@ -80,7 +80,7 @@
            }
 
 }
-@media only screen and (min-width: 728px) {
+@media only screen and (min-width: 768px) {
     .ProjectContent {
         height: 44vh;
     }

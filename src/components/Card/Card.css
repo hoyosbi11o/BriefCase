@@ -48,14 +48,14 @@
     margin: 0px 0px 5px 0px;
 }
 
-.enlaCard {
+.linkCard {
     font-size: 1rem;
     color: #000000;
     text-decoration: none;
     text-shadow: none;
 }
 
-.enlaCard:hover {
+.linkCard:hover {
     text-decoration: underline;
 }
 
@@ -67,13 +67,13 @@
 .titleCard{
         font-size: 1rem;
 }
-.enlaCard,
+.linkCard,
 .DescripCard{
     font-size: .8rem;
 }
 
 }
-@media only screen and (min-width: 728px) {
+@media only screen and (min-width: 768px) {
     .CardGeneral {
         width: 45%;
     }
@@ -82,7 +82,7 @@
         font-size: .8rem;
     }
 
-    .enlaCard,
+    .linkCard,
     .DescripCard {
         font-size: .65rem;
     }

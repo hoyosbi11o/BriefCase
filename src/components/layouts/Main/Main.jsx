@@ -14,7 +14,7 @@ export const Main = () => {
       <ReferenceContent/>
       <ExperenceContent/>
     </div>
-      <a href="#"><Img component={"https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407608/whatsapp_cdkskr.png"} className="BotonWhats" /></a>
+      <a href="#"><Img component={"https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407608/whatsapp_cdkskr.png"} className="ButtonWhats" /></a>
     </>
   )
 }

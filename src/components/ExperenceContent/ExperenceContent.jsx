@@ -7,7 +7,7 @@ export const ExperenceContent = () => {
     <div className='ExpereContent'>
       <div className='ContentExpe'>
         <div>
-          <Img className="LogoSinFondo" component={"https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407378/LogoSenaSInFondo_ogkwig.png"} />
+          <Img className="LogoNoBack" component={"https://res.cloudinary.com/dsfcsitj5/image/upload/v1709407378/LogoSenaSInFondo_ogkwig.png"} />
         </div>
         <p className="titleExpere">EXPERIENCIA</p>
 

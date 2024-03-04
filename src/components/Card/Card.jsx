@@ -9,7 +9,7 @@ export const Card = ({photo,title,description,enlace}) => {
         <div className="ContentofCard">
            <p className="titleCard">{title}</p>
             <p className="DescripCard">{description}</p>
-             <a href="#" className="enlaCard">{enlace}</a>
+             <a href="#" className="linkCard">{enlace}</a>
         </div>
       </section>
   )
